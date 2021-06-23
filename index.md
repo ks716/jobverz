@@ -1,6 +1,6 @@
 ## Project Description
 
-**Jobverz** is a product of (Multiverz)[https://www.multiverz.com/]
+**Jobverz** is a product of [Multiverz](https://www.multiverz.com/)
 
 ## Problem statement
 
