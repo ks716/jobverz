@@ -4,13 +4,14 @@
 
 ## Problem statement
 
-Tool for users, governments, companies to help in job hiring process.
+Job hunting, job seeking, or job searching is the act of looking for employment, due to unemployment, underemployment, discontent with a current position, or a desire for a better position. JobVerz is a web application designed for job seekers to identify their skills and skills to be known to get a job in their chosen career path. <br>
+As a part of the Integration Team, our job is to extract skills from the given job description. We started to work on a mapper API which will act as a bridge between skills and job postings to provide a list of skills present in the posting. Additionally, by keeping track of all the retrieved skills, we can come up with insights into the present job market to predict trending skills.
+
 
 ## Technologies used
 
 * **Frontend :** React JS
-* **Backend :** Python
-* **Testing Tools :** JEST  
+* **Backend :** Python, Spacy, AWS
 * **Code Versioning Systems:** Git and GitHub  
   
 
@@ -46,4 +47,4 @@ Prevent noise and format the retrieved skills.
 Used the fuzzywuzzy algorithm to extract the skills from a job posting and used that as training data. Trained the NER model with 300 job postings. Extracted skills from 2.54 lakhs job postings from 59 fortune companies. Performed error analysis and observed  that the NER model is working with an accuracy of 74%. The retrieved skills were sent to EMSI mapper to further format the skills.
 
 ## Sprint 8:
-<Currently running>
+Cleaned and modularized the code to form a sort of API endpoint which is then deployed on AWS Lambda. Beacuse of storage restrictions had to use EC2 instance to deploy the package. Had our project demo infront if MSIT panel and worked on the [documentation](https://docs.google.com/document/d/11RWac0FnvHcHOYZuptnNKRxajd_XFk5-9DHOZkDmPrY/edit?usp=sharing).
