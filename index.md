@@ -4,7 +4,8 @@
 
 ## Problem statement
 
-Job hunting, job seeking, or job searching is the act of looking for employment, due to unemployment, underemployment, discontent with a current position, or a desire for a better position. JobVerz is a web application designed for job seekers to identify their skills and skills to be known to get a job in their chosen career path. <br>
+Job hunting, job seeking, or job searching is the act of looking for employment, due to unemployment, underemployment, discontent with a current position, or a desire for a better position. JobVerz is a web application designed for job seekers to identify their skills and skills to be known to get a job in their chosen career path. 
+<br>
 As a part of the Integration Team, our job is to extract skills from the given job description. We started to work on a mapper API which will act as a bridge between skills and job postings to provide a list of skills present in the posting. Additionally, by keeping track of all the retrieved skills, we can come up with insights into the present job market to predict trending skills.
 
 
